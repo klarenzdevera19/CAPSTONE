@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="node_modules/jquery-parallax.js/parallax.min.js"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>Bonafide</title>
+      <script defer src="app.js"></script>
+</head>
+<body>
+    <section>
+        <img src="assets/star.png" id="star">
+        <img src="assets/dd.png" id="hand">
+        <h2 id="text">Move Katropa</h2>
+        <img src="assets/qq.png" id="man1">
+        </section>
+    
+    <div class="sec" id="sec">
+        
+        <h2> The CVSU Move Katropa</h2>
+        <p> In a patriarchal society, where men dominate and rule our community, violence and abuses against women and girls are rampant. 
+        Undeniably, the masculinity ideology as part of our people's attitude may cause gender-based violence and other practices of gender discrimination. 
+        In these changing times, it is necessary to use the power of men and boys in ending different forms of violence and criminalities. <br></br>In the Philippines, the violence against women may be one of the first crimes against a person because of their gender. 
+        Despite of the government initiatives and efforts to stop all forms of violence against women, reported cases of VAW is still increasing. 
+        Likewise, gender-based violence remains pervasive despite of the passage of laws and policies such as RA 9262: (Anti-Violence Against and Women and Children Law), 
+        RA 9710 (Magna Carta of Women), the amended RA 8353 (Anti Rape Law), RA 7877 (Anti-Sexual Harassment Act) and the recent RA 11313 (Safe Spaces Law). <br></br>In the 2017 report of the National Demographic Health Survey (NDHS), one (1) in four (4) married women aged 15 to 49 have experienced spousal violence 
+        (this act includes physical, sexual, or emotional violence) by their most recent and or current partners. The report also shows the only one of three women who experience sexual and 
+        physical abuses asked help, the most common source of assistance was not directed to the law enforcing authorities but with victim’s own family (65%) and trusted friends (18%). 
+        In these reported cases, 41% of victims never sought help or even told to anyone. Moreover, 11% of women justified that a husband is beating his spouse for any of these causes: 
+        neglects children, going out without husband's permission, argues with him, burns food, and refusal to have sex </p>
+        </div>
+            
+              <div class="bod">
+   <section class="hidden">
+        <h1> CVSU MOVE KATROPA
+       WERE ESTABLISHED ON 2017</h1>
+        </section>
+                  
+
+
+   <section class="hidden">
+        <h1>Since then, CvSU MOVE & KATROPA institutionalized & supported 
+       the university quest on VAW-free community...</h1>
+            
+        </section>
+
+   <section class="hidden">
+        <h1>...by integrating GAD in ALL of its programs.</h1>
+            
+        </section>
+
+        <div class="pics">
+            <div class="pics hidden">
+                <img src="assets/a1.png">
+                </div>
+            <div class="pics hidden">
+                <img src="assets/a2.png">
+                </div>
+            <div class="pics hidden">
+                <img src="assets/a3.png">
+                </div>
+            </div>
+        
+</div>
+    <section>
+        <img src="assets/star.png" id="stars">
+        <img src="assets/dd.png" id="hands">
+        </section>
+    
+         
+               
+
+    <script>
+        let star = document.getElementById('star');
+        let stars = document.getElementById('stars');
+
+        let hand = document.getElementById('hand'); 
+        let hands = document.getElementById('hands');
+        let text = document.getElementById('text'); 
+        let man1 = document.getElementById('man1');  
+
+        window.addEventListener('scroll', function(){
+        let value = window.scrollY;
+        star.style.left = value * 0.25 + 'px';
+        stars.style.top = value * 0.25 + 'px';
+        hand.style.top = value * 0.3 + 'px';
+        hands.style.top = value * 0.3 + 'px';
+        man1.style.top = value * 0 + 'px';  
+        text.style.marginBottom = value * 5 + 'px';
+        text.style.marginTop = value * 1.5 + 'px';
+
+
+
+        })
+        </script>
+
+  
+   
+
+</body>
+</html>
